@@ -11,6 +11,7 @@
 		59D914422C7CFE8300A8A03F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D914412C7CFE8300A8A03F /* ContentView.swift */; };
 		59D914442C7CFE8500A8A03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D914432C7CFE8500A8A03F /* Assets.xcassets */; };
 		59D914472C7CFE8500A8A03F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D914462C7CFE8500A8A03F /* Preview Assets.xcassets */; };
+		59F74A1F2C7F3FDC00B1B32B /* TextBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		59D914412C7CFE8300A8A03F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59D914432C7CFE8500A8A03F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59D914462C7CFE8500A8A03F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootleg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				59D9143F2C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift */,
 				59D914412C7CFE8300A8A03F /* ContentView.swift */,
+				59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */,
 				59D914432C7CFE8500A8A03F /* Assets.xcassets */,
 				59D914452C7CFE8500A8A03F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F74A1F2C7F3FDC00B1B32B /* TextBootleg.swift in Sources */,
 				59D914422C7CFE8300A8A03F /* ContentView.swift in Sources */,
 				59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */,
 			);
