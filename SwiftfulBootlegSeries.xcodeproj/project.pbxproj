@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */; };
 		59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D9143F2C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift */; };
 		59D914422C7CFE8300A8A03F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D914412C7CFE8300A8A03F /* ContentView.swift */; };
 		59D914442C7CFE8500A8A03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D914432C7CFE8500A8A03F /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIconBotleg.swift; sourceTree = "<group>"; };
 		59D9143C2C7CFE8300A8A03F /* SwiftfulBootlegSeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulBootlegSeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D9143F2C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulBootlegSeriesApp.swift; sourceTree = "<group>"; };
 		59D914412C7CFE8300A8A03F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				59D9143F2C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift */,
 				59D914412C7CFE8300A8A03F /* ContentView.swift */,
+				59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */,
 				59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */,
 				59D914432C7CFE8500A8A03F /* Assets.xcassets */,
 				59D914452C7CFE8500A8A03F /* Preview Content */,
@@ -143,6 +146,7 @@
 				59F74A1F2C7F3FDC00B1B32B /* TextBootleg.swift in Sources */,
 				59D914422C7CFE8300A8A03F /* ContentView.swift in Sources */,
 				59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */,
+				59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
