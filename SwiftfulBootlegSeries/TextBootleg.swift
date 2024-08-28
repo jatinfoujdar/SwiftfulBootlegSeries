@@ -8,7 +8,7 @@ import SwiftUI
 
 struct TextBootleg: View {
     var body: some View {
-        Text("Hello, World!")
+//        Text("Hello, World!")
 //            .font(.title)
 //            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
 //            .italic()
@@ -16,7 +16,10 @@ struct TextBootleg: View {
 //            .underline(true, color: Color.yellow)
 //            .foregroundColor(Color.red)
 //  .multilineTextAlignment(.center)
-    
+    Circle()
+//            .fill(Color.blue)
+//            .foregroundColor(.pink)
+//            .stroke(Color.blue, lineWidth:30)
         
     }
 }
