@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SwiftIconBotleg: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
 //            .background(.green)
 //          .frame(width: 300,height: 300,alignment: .leading)
 //            .frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/,alignment: .center)
@@ -26,19 +26,29 @@ struct SwiftIconBotleg: View {
 //           .font(.largeTitle)
 //              .font(.system(size:50))
 //              .foregroundColor(.green)
-            .background(
-//                LinearGradient(gradient: /*@START_MENU_TOKEN@*/Gradient(colors: [Color.red, Color.blue])/*@END_MENU_TOKEN@*/, startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
-                Circle()
-                    .fill(Color.blue)
-                    .frame(width: 100, height: 100, alignment: .center)
-            )
-            
+//            .background(
+////                LinearGradient(gradient: /*@START_MENU_TOKEN@*/Gradient(colors: [Color.red, Color.blue])/*@END_MENU_TOKEN@*/, startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
+//                Circle()
+//                    .fill(Color.blue)
+//                    .frame(width: 100, height: 100, alignment: .center)
+//            )
+//            
+//            .background(
+//            Circle()
+//                .fill(Color.red)
+//                .frame(width: 120, height: 120, alignment: .center)
+//            )
+        Image(systemName: "heart.fill")
+            .foregroundColor(.white)
+            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             .background(
             Circle()
-                .fill(Color.red)
-                .frame(width: 120, height: 120, alignment: .center)
+                .fill(
+                    LinearGradient(gradient: /*@START_MENU_TOKEN@*/Gradient(colors: [Color.red, Color.blue])/*@END_MENU_TOKEN@*/, startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
+                )
+                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/,height: 100)
+                .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             )
-        
     }
 }
 
