@@ -46,8 +46,18 @@ struct SwiftIconBotleg: View {
                 .fill(
                     LinearGradient(gradient: /*@START_MENU_TOKEN@*/Gradient(colors: [Color.red, Color.blue])/*@END_MENU_TOKEN@*/, startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
                 )
+            
                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/,height: 100)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                .overlay(
+                Circle()
+                    .frame(width: 35,height: 35)
+                    .overlay(
+                    Text("5")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                    ),alignment: .bottomTrailing
+                )
             )
     }
 }
