@@ -29,6 +29,7 @@ struct StackBootleg: View {
 //        Text("dasddaaavdsvsvs")
           
         HStack(spacing:0){
+            
             Image(systemName: "xmark")
             Spacer()
             Image(systemName:"gear")

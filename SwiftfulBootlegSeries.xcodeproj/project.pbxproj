@@ -13,6 +13,8 @@
 		59D914422C7CFE8300A8A03F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D914412C7CFE8300A8A03F /* ContentView.swift */; };
 		59D914442C7CFE8500A8A03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D914432C7CFE8500A8A03F /* Assets.xcassets */; };
 		59D914472C7CFE8500A8A03F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D914462C7CFE8500A8A03F /* Preview Assets.xcassets */; };
+		59EBE8C42C82316600784DB2 /* initBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EBE8C32C82316600784DB2 /* initBootleg.swift */; };
+		59EBE8C62C824E4100784DB2 /* journalBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EBE8C52C824E4100784DB2 /* journalBootleg.swift */; };
 		59F74A1F2C7F3FDC00B1B32B /* TextBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,8 @@
 		59D914412C7CFE8300A8A03F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59D914432C7CFE8500A8A03F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59D914462C7CFE8500A8A03F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59EBE8C32C82316600784DB2 /* initBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initBootleg.swift; sourceTree = "<group>"; };
+		59EBE8C52C824E4100784DB2 /* journalBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalBootleg.swift; sourceTree = "<group>"; };
 		59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootleg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +65,8 @@
 				59D914412C7CFE8300A8A03F /* ContentView.swift */,
 				59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */,
 				591580572C80F2D30014E14B /* StackBootleg.swift */,
+				59EBE8C32C82316600784DB2 /* initBootleg.swift */,
+				59EBE8C52C824E4100784DB2 /* journalBootleg.swift */,
 				59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */,
 				59D914432C7CFE8500A8A03F /* Assets.xcassets */,
 				59D914452C7CFE8500A8A03F /* Preview Content */,
@@ -146,10 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59EBE8C42C82316600784DB2 /* initBootleg.swift in Sources */,
 				59F74A1F2C7F3FDC00B1B32B /* TextBootleg.swift in Sources */,
 				591580582C80F2D30014E14B /* StackBootleg.swift in Sources */,
 				59D914422C7CFE8300A8A03F /* ContentView.swift in Sources */,
 				59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */,
+				59EBE8C62C824E4100784DB2 /* journalBootleg.swift in Sources */,
 				59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
