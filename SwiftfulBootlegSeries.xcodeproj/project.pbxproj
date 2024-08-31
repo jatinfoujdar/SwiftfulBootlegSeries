@@ -10,6 +10,7 @@
 		591580582C80F2D30014E14B /* StackBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591580572C80F2D30014E14B /* StackBootleg.swift */; };
 		59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */; };
 		59D42ABF2C82EF74008E17B3 /* MapBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D42ABE2C82EF74008E17B3 /* MapBootleg.swift */; };
+		59D500D52C837AB400EC758E /* ContentViewBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D500D42C837AB400EC758E /* ContentViewBootleg.swift */; };
 		59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D9143F2C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift */; };
 		59D914422C7CFE8300A8A03F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D914412C7CFE8300A8A03F /* ContentView.swift */; };
 		59D914442C7CFE8500A8A03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D914432C7CFE8500A8A03F /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		591580572C80F2D30014E14B /* StackBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBootleg.swift; sourceTree = "<group>"; };
 		59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIconBotleg.swift; sourceTree = "<group>"; };
 		59D42ABE2C82EF74008E17B3 /* MapBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBootleg.swift; sourceTree = "<group>"; };
+		59D500D42C837AB400EC758E /* ContentViewBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewBootleg.swift; sourceTree = "<group>"; };
 		59D9143C2C7CFE8300A8A03F /* SwiftfulBootlegSeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulBootlegSeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D9143F2C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulBootlegSeriesApp.swift; sourceTree = "<group>"; };
 		59D914412C7CFE8300A8A03F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				591580572C80F2D30014E14B /* StackBootleg.swift */,
 				59EBE8C32C82316600784DB2 /* initBootleg.swift */,
 				59D42ABE2C82EF74008E17B3 /* MapBootleg.swift */,
+				59D500D42C837AB400EC758E /* ContentViewBootleg.swift */,
 				59EBE8C52C824E4100784DB2 /* journalBootleg.swift */,
 				59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */,
 				59D914432C7CFE8500A8A03F /* Assets.xcassets */,
@@ -163,6 +166,7 @@
 				59D42ABF2C82EF74008E17B3 /* MapBootleg.swift in Sources */,
 				59EBE8C62C824E4100784DB2 /* journalBootleg.swift in Sources */,
 				59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */,
+				59D500D52C837AB400EC758E /* ContentViewBootleg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
