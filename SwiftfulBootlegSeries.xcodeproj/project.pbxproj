@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		591580582C80F2D30014E14B /* StackBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591580572C80F2D30014E14B /* StackBootleg.swift */; };
+		599D9C032C850974001A3127 /* ForEachBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D9C022C850974001A3127 /* ForEachBootleg.swift */; };
 		59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */; };
 		59D42ABF2C82EF74008E17B3 /* MapBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D42ABE2C82EF74008E17B3 /* MapBootleg.swift */; };
 		59D500D52C837AB400EC758E /* ContentViewBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D500D42C837AB400EC758E /* ContentViewBootleg.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		591580572C80F2D30014E14B /* StackBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBootleg.swift; sourceTree = "<group>"; };
+		599D9C022C850974001A3127 /* ForEachBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootleg.swift; sourceTree = "<group>"; };
 		59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIconBotleg.swift; sourceTree = "<group>"; };
 		59D42ABE2C82EF74008E17B3 /* MapBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBootleg.swift; sourceTree = "<group>"; };
 		59D500D42C837AB400EC758E /* ContentViewBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewBootleg.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				59D500D42C837AB400EC758E /* ContentViewBootleg.swift */,
 				59EBE8C52C824E4100784DB2 /* journalBootleg.swift */,
 				59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */,
+				599D9C022C850974001A3127 /* ForEachBootleg.swift */,
 				59D914432C7CFE8500A8A03F /* Assets.xcassets */,
 				59D914452C7CFE8500A8A03F /* Preview Content */,
 			);
@@ -167,6 +170,7 @@
 				59EBE8C62C824E4100784DB2 /* journalBootleg.swift in Sources */,
 				59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */,
 				59D500D52C837AB400EC758E /* ContentViewBootleg.swift in Sources */,
+				599D9C032C850974001A3127 /* ForEachBootleg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
