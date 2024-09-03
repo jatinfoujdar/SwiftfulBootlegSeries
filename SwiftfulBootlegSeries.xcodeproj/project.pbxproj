@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		591580582C80F2D30014E14B /* StackBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591580572C80F2D30014E14B /* StackBootleg.swift */; };
 		599CF1552C85C4DB00733B1E /* ScrollViewBootleg .swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */; };
+		599CF1572C85D9DD00733B1E /* LazySwiftBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */; };
 		599D9C032C850974001A3127 /* ForEachBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D9C022C850974001A3127 /* ForEachBootleg.swift */; };
 		59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */; };
 		59D42ABF2C82EF74008E17B3 /* MapBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D42ABE2C82EF74008E17B3 /* MapBootleg.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		591580572C80F2D30014E14B /* StackBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBootleg.swift; sourceTree = "<group>"; };
 		599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewBootleg .swift"; sourceTree = "<group>"; };
+		599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazySwiftBootleg.swift; sourceTree = "<group>"; };
 		599D9C022C850974001A3127 /* ForEachBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootleg.swift; sourceTree = "<group>"; };
 		59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIconBotleg.swift; sourceTree = "<group>"; };
 		59D42ABE2C82EF74008E17B3 /* MapBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBootleg.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */,
 				599D9C022C850974001A3127 /* ForEachBootleg.swift */,
 				599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */,
+				599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */,
 				59D914432C7CFE8500A8A03F /* Assets.xcassets */,
 				59D914452C7CFE8500A8A03F /* Preview Content */,
 			);
@@ -170,6 +173,7 @@
 				599CF1552C85C4DB00733B1E /* ScrollViewBootleg .swift in Sources */,
 				59D914422C7CFE8300A8A03F /* ContentView.swift in Sources */,
 				59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */,
+				599CF1572C85D9DD00733B1E /* LazySwiftBootleg.swift in Sources */,
 				59D42ABF2C82EF74008E17B3 /* MapBootleg.swift in Sources */,
 				59EBE8C62C824E4100784DB2 /* journalBootleg.swift in Sources */,
 				59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */,

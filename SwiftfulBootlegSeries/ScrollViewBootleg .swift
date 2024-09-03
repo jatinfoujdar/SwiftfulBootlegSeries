@@ -19,6 +19,7 @@ struct ScrollViewBootleg_: View {
 //            }
 //        })
         ScrollView{
+            //LazyStack
             VStack{
         ForEach(0..<10){index in
             ScrollView(.horizontal,showsIndicators: false,content:{
