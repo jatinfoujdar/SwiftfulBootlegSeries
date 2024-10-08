@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590522712CB54E88009A4B90 /* GridModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590522702CB54E71009A4B90 /* GridModifier.swift */; };
+		590522732CB54ECD009A4B90 /* GredContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590522722CB54ECD009A4B90 /* GredContainers.swift */; };
 		591580582C80F2D30014E14B /* StackBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591580572C80F2D30014E14B /* StackBootleg.swift */; };
 		599CF1552C85C4DB00733B1E /* ScrollViewBootleg .swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */; };
 		599CF1572C85D9DD00733B1E /* LazySwiftBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		590522702CB54E71009A4B90 /* GridModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridModifier.swift; sourceTree = "<group>"; };
+		590522722CB54ECD009A4B90 /* GredContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GredContainers.swift; sourceTree = "<group>"; };
 		591580572C80F2D30014E14B /* StackBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBootleg.swift; sourceTree = "<group>"; };
 		599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewBootleg .swift"; sourceTree = "<group>"; };
 		599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazySwiftBootleg.swift; sourceTree = "<group>"; };
@@ -71,10 +75,12 @@
 		59D9143E2C7CFE8300A8A03F /* SwiftfulBootlegSeries */ = {
 			isa = PBXGroup;
 			children = (
+				590522702CB54E71009A4B90 /* GridModifier.swift */,
 				59D9143F2C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift */,
 				59D914412C7CFE8300A8A03F /* ContentView.swift */,
 				59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */,
 				591580572C80F2D30014E14B /* StackBootleg.swift */,
+				590522722CB54ECD009A4B90 /* GredContainers.swift */,
 				59EBE8C32C82316600784DB2 /* initBootleg.swift */,
 				59D42ABE2C82EF74008E17B3 /* MapBootleg.swift */,
 				59D500D42C837AB400EC758E /* ContentViewBootleg.swift */,
@@ -172,8 +178,10 @@
 				591580582C80F2D30014E14B /* StackBootleg.swift in Sources */,
 				599CF1552C85C4DB00733B1E /* ScrollViewBootleg .swift in Sources */,
 				59D914422C7CFE8300A8A03F /* ContentView.swift in Sources */,
+				590522732CB54ECD009A4B90 /* GredContainers.swift in Sources */,
 				59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */,
 				599CF1572C85D9DD00733B1E /* LazySwiftBootleg.swift in Sources */,
+				590522712CB54E88009A4B90 /* GridModifier.swift in Sources */,
 				59D42ABF2C82EF74008E17B3 /* MapBootleg.swift in Sources */,
 				59EBE8C62C824E4100784DB2 /* journalBootleg.swift in Sources */,
 				59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */,
