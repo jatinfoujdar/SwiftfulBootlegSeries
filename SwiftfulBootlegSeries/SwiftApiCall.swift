@@ -27,3 +27,11 @@ struct SwiftApiCall: View {
 #Preview {
     SwiftApiCall()
 }
+
+
+struct GithubUser: Codable{
+    let login: String
+    let avatar_url: String
+    let bio: String
+    
+}
