@@ -14,10 +14,10 @@ struct SwiftApiCall: View {
             Circle()
                 .foregroundStyle(.gray)
                 .frame(width: 120,height: 120)
-            Text("Username")
+            Text(user?.login ?? "Login ")
                 .bold()
                 .font(.title3)
-            Text("this is where Bio will go. Lets make it long so that span will open in two line ")
+            Text(user?.bio ?? "Bio placeholder")
                 .padding()
             Spacer()
         }
@@ -31,6 +31,8 @@ struct SwiftApiCall: View {
                 print("invalid response")
             }catch GHError.invalidData{
                 print("invalid data")
+            }catch {
+                print("invalid....?")
             }
         }
     }
