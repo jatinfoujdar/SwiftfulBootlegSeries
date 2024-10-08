@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SwiftApiCall: View {
+    @State private var user: GithubUser?
     var body: some View {
         VStack(spacing: 20){
             Circle()
@@ -21,9 +22,20 @@ struct SwiftApiCall: View {
             Spacer()
         }
         .padding()
+        .task {
+            do{
+                user = try await getUser()
+            }catch GHError.invalidURL{
+                print("invalid Url")
+            }catch GHError.invalidResponse{
+                print("invalid response")
+            }catch GHError.invalidData{
+                print("invalid data")
+            }
+        }
     }
     func getUser() async throws -> GithubUser{
-        let endpoint = "https://api.github.com/jatinfoujdar"
+        let endpoint = "https://api.github.com/users/jatinfoujdar"
         
         guard let url = URL(string: endpoint)
         else{
