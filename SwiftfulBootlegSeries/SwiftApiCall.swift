@@ -54,10 +54,8 @@ struct SwiftApiCall: View {
         }
     }
 
-
     func getUser() async throws -> GithubUser {
         let endpoint = "https://api.github.com/users/octocat"
-
         
         guard let url = URL(string: endpoint) else {
             throw GHError.invalidURL
@@ -69,27 +67,24 @@ struct SwiftApiCall: View {
             throw GHError.invalidResponse
         }
         
-        guard httpResponse.statusCode == 200 else {
+        // Check the status code
+        if httpResponse.statusCode != 200 {
             let message = "Unexpected status code: \(httpResponse.statusCode)"
-            print(message)
+            let responseBody = String(data: data, encoding: .utf8) ?? "No data"
+            print("\(message)\nResponse Body: \(responseBody)")
             throw GHError.invalidResponse
         }
         
         do {
             let decoder = JSONDecoder()
             decoder.keyDecodingStrategy = .convertFromSnakeCase
-            let user = try decoder.decode(GithubUser.self, from: data)
-
-            // Fetch followers and following counts
-            let followersCount = try await fetchFollowersCount(username: user.login)
-            let followingCount = try await fetchFollowingCount(username: user.login)
-
-            return GithubUser(login: user.login, avatarUrl: user.avatarUrl, bio: user.bio, followers: followersCount, following: followingCount)
+            return try decoder.decode(GithubUser.self, from: data)
         } catch {
-            print("Decoding error: \(error)")
+            print("Decoding error: \(error), data: \(String(data: data, encoding: .utf8) ?? "No data")")
             throw GHError.invalidData
         }
     }
+
 
     func fetchFollowersCount(username: String) async throws -> Int {
         let endpoint = "https://api.github.com/users/\(username)/followers"
