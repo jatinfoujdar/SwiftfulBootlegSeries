@@ -10,17 +10,22 @@ import SwiftUI
 struct Scrumdinger: View {
     var body: some View {
         VStack {
-            ProgressView(value: 10, total: 15)
+            ProgressView(value: 5, total: 15)
             HStack{
-                VStack {
+                VStack(alignment: .leading){
                     Text("Seconds Ellapsed")
+                        .font(.caption)
                     Label("300", systemImage: "hourglass.tophalf.fill")
                 }
-                VStack {
+                Spacer()
+                VStack(alignment: .trailing){
                     Text("Seconds Remaining")
+                        .font(.caption)
                     Label("600", systemImage: "hourglass.tophalf.fill")
                 }
             }
+            Circle()
+                .strokeBorder(lineWidth: 24)
         }
     }
 }
