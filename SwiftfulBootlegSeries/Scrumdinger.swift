@@ -12,7 +12,14 @@ struct Scrumdinger: View {
         VStack {
             ProgressView(value: 10, total: 15)
             HStack{
-                Text("Seconds Ellapsed")
+                VStack {
+                    Text("Seconds Ellapsed")
+                    Label("300", systemImage: "hourglass.tophalf.fill")
+                }
+                VStack {
+                    Text("Seconds Remaining")
+                    Label("600", systemImage: "hourglass.tophalf.fill")
+                }
             }
         }
     }
