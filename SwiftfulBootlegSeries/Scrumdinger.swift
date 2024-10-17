@@ -38,6 +38,7 @@ struct Scrumdinger: View {
                 .accessibilityLabel("Next Speaker")
             }
         }.padding()
+            .foregroundStyle(.red)
     }
 }
 
