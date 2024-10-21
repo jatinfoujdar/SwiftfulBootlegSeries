@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct WordScramble: View {
+     let people = ["Fin","Leia","Luke","Rey"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(people, id: \.self){
+            Text($0)
+        }
     }
 }
 
