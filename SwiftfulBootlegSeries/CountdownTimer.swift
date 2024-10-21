@@ -15,9 +15,28 @@ struct CountdownTimer: View {
         VStack{
             Text("\(timeString(time: timeRemaining))")
         }
+        HStack{
+            Button(action: startTimer){
+                Text("Start")
+            }
+            Spacer()
+            Button(action: resetTimer){
+                Text("Reset")
+            }
+        }
+        .padding(40)
     }
 }
-func timeString(time: Int){
+func timeString(time: Int) -> String{
+    let minutes = time / 60
+    let seconds = time % 60
+    return String(format: "%02d:%02d", minutes, seconds)
+  }
+
+func startTimer(){
+    
+}
+func resetTimer(){
     
 }
 

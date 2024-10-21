@@ -11,6 +11,7 @@
 		590522732CB54ECD009A4B90 /* GredContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590522722CB54ECD009A4B90 /* GredContainers.swift */; };
 		591580582C80F2D30014E14B /* StackBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591580572C80F2D30014E14B /* StackBootleg.swift */; };
 		591A8C2B2CB585C8002CCFF2 /* SwiftApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A8C2A2CB585C8002CCFF2 /* SwiftApiCall.swift */; };
+		597EF3E22CC6FCA600EB0D3D /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EF3E12CC6FCA600EB0D3D /* WordScramble.swift */; };
 		599CF1552C85C4DB00733B1E /* ScrollViewBootleg .swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */; };
 		599CF1572C85D9DD00733B1E /* LazySwiftBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */; };
 		599D9C032C850974001A3127 /* ForEachBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D9C022C850974001A3127 /* ForEachBootleg.swift */; };
@@ -33,6 +34,7 @@
 		590522722CB54ECD009A4B90 /* GredContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GredContainers.swift; sourceTree = "<group>"; };
 		591580572C80F2D30014E14B /* StackBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBootleg.swift; sourceTree = "<group>"; };
 		591A8C2A2CB585C8002CCFF2 /* SwiftApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftApiCall.swift; sourceTree = "<group>"; };
+		597EF3E12CC6FCA600EB0D3D /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewBootleg .swift"; sourceTree = "<group>"; };
 		599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazySwiftBootleg.swift; sourceTree = "<group>"; };
 		599D9C022C850974001A3127 /* ForEachBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootleg.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */,
 				599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */,
 				59EB60EA2CC1956200BE24BD /* CountdownTimer.swift */,
+				597EF3E12CC6FCA600EB0D3D /* WordScramble.swift */,
 				59D914432C7CFE8500A8A03F /* Assets.xcassets */,
 				59D914452C7CFE8500A8A03F /* Preview Content */,
 			);
@@ -190,6 +193,7 @@
 				599CF1552C85C4DB00733B1E /* ScrollViewBootleg .swift in Sources */,
 				59D914422C7CFE8300A8A03F /* ContentView.swift in Sources */,
 				590522732CB54ECD009A4B90 /* GredContainers.swift in Sources */,
+				597EF3E22CC6FCA600EB0D3D /* WordScramble.swift in Sources */,
 				59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */,
 				599CF1572C85D9DD00733B1E /* LazySwiftBootleg.swift in Sources */,
 				591A8C2B2CB585C8002CCFF2 /* SwiftApiCall.swift in Sources */,
