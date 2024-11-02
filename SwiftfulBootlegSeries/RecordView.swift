@@ -13,6 +13,8 @@ struct RecordView: View {
     @Binding var shouldAnimate : Bool
     var body: some View {
         Image("record")
+            .resizable()
+            .frame(width: 275, height: 275)
     }
 }
 
