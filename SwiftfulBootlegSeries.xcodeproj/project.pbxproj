@@ -15,6 +15,7 @@
 		59855BC92CD5F2CC0017C462 /* RecordPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59855BC82CD5F2CC0017C462 /* RecordPlayer.swift */; };
 		59855BCB2CD5FBDF0017C462 /* RecordPlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59855BCA2CD5FBDF0017C462 /* RecordPlayerBox.swift */; };
 		59855BCD2CD5FDB70017C462 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 59855BCC2CD5FDB70017C462 /* music.m4a */; };
+		59855BCF2CD6003F0017C462 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59855BCE2CD6003F0017C462 /* RecordView.swift */; };
 		599CF1552C85C4DB00733B1E /* ScrollViewBootleg .swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */; };
 		599CF1572C85D9DD00733B1E /* LazySwiftBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */; };
 		599D9C032C850974001A3127 /* ForEachBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D9C022C850974001A3127 /* ForEachBootleg.swift */; };
@@ -41,6 +42,7 @@
 		59855BC82CD5F2CC0017C462 /* RecordPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayer.swift; sourceTree = "<group>"; };
 		59855BCA2CD5FBDF0017C462 /* RecordPlayerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerBox.swift; sourceTree = "<group>"; };
 		59855BCC2CD5FDB70017C462 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		59855BCE2CD6003F0017C462 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewBootleg .swift"; sourceTree = "<group>"; };
 		599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazySwiftBootleg.swift; sourceTree = "<group>"; };
 		599D9C022C850974001A3127 /* ForEachBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootleg.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				59855BCA2CD5FBDF0017C462 /* RecordPlayerBox.swift */,
 				59D914432C7CFE8500A8A03F /* Assets.xcassets */,
 				59D914452C7CFE8500A8A03F /* Preview Content */,
+				59855BCE2CD6003F0017C462 /* RecordView.swift */,
 			);
 			path = SwiftfulBootlegSeries;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				590522732CB54ECD009A4B90 /* GredContainers.swift in Sources */,
 				597EF3E22CC6FCA600EB0D3D /* WordScramble.swift in Sources */,
 				59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */,
+				59855BCF2CD6003F0017C462 /* RecordView.swift in Sources */,
 				599CF1572C85D9DD00733B1E /* LazySwiftBootleg.swift in Sources */,
 				591A8C2B2CB585C8002CCFF2 /* SwiftApiCall.swift in Sources */,
 				590522712CB54E88009A4B90 /* GridModifier.swift in Sources */,
