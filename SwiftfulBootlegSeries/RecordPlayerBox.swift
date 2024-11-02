@@ -14,6 +14,7 @@ struct RecordPlayerBox: View {
             Image("woodGrain")
                 .resizable().frame(width: 325, height: 325)
                 .shadow(radius: 3)
+            
         }
     }
 }
