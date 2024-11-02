@@ -15,7 +15,11 @@ struct RecordPlayer: View {
     @State private var degrees = 0.0
     
     var body: some View {
-            Text("Hello, World!")
+        ZStack{
+            RadialGradient(gradient: Gradient(colors: [.white, .black]), center: .center, startRadius: 20, endRadius: 600)
+                .scaleEffect(1.2)
+            RecordPlayerBox()
+        }
        
     }
 }
