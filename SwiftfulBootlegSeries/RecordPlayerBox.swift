@@ -9,7 +9,12 @@ import SwiftUI
 
 struct RecordPlayerBox: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Rectangle().frame(width: 340,height: 340).cornerRadius(10.0)
+            Image("woodGrain")
+                .resizable().frame(width: 325, height: 325)
+                .shadow(radius: 3)
+        }
     }
 }
 

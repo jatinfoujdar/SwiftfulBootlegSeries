@@ -14,6 +14,7 @@
 		597EF3E22CC6FCA600EB0D3D /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EF3E12CC6FCA600EB0D3D /* WordScramble.swift */; };
 		59855BC92CD5F2CC0017C462 /* RecordPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59855BC82CD5F2CC0017C462 /* RecordPlayer.swift */; };
 		59855BCB2CD5FBDF0017C462 /* RecordPlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59855BCA2CD5FBDF0017C462 /* RecordPlayerBox.swift */; };
+		59855BCD2CD5FDB70017C462 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 59855BCC2CD5FDB70017C462 /* music.m4a */; };
 		599CF1552C85C4DB00733B1E /* ScrollViewBootleg .swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */; };
 		599CF1572C85D9DD00733B1E /* LazySwiftBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */; };
 		599D9C032C850974001A3127 /* ForEachBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D9C022C850974001A3127 /* ForEachBootleg.swift */; };
@@ -39,6 +40,7 @@
 		597EF3E12CC6FCA600EB0D3D /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		59855BC82CD5F2CC0017C462 /* RecordPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayer.swift; sourceTree = "<group>"; };
 		59855BCA2CD5FBDF0017C462 /* RecordPlayerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerBox.swift; sourceTree = "<group>"; };
+		59855BCC2CD5FDB70017C462 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
 		599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewBootleg .swift"; sourceTree = "<group>"; };
 		599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazySwiftBootleg.swift; sourceTree = "<group>"; };
 		599D9C022C850974001A3127 /* ForEachBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootleg.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				59EB60EA2CC1956200BE24BD /* CountdownTimer.swift */,
 				597EF3E12CC6FCA600EB0D3D /* WordScramble.swift */,
 				59855BC82CD5F2CC0017C462 /* RecordPlayer.swift */,
+				59855BCC2CD5FDB70017C462 /* music.m4a */,
 				59855BCA2CD5FBDF0017C462 /* RecordPlayerBox.swift */,
 				59D914432C7CFE8500A8A03F /* Assets.xcassets */,
 				59D914452C7CFE8500A8A03F /* Preview Content */,
@@ -181,6 +184,7 @@
 			files = (
 				59D914472C7CFE8500A8A03F /* Preview Assets.xcassets in Resources */,
 				59D914442C7CFE8500A8A03F /* Assets.xcassets in Resources */,
+				59855BCD2CD5FDB70017C462 /* music.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
