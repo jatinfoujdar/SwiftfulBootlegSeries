@@ -16,7 +16,7 @@ struct RecordView: View {
             .resizable()
             .frame(width: 275, height: 275)
             .rotationEffect(Angle.degrees(degrees))
-            .animation(Animation.linear(duration: shouldAnimate ? 60 : 0).delay(1.5))
+//            .animation(Animation.linear(duration: shouldAnimate ? 60 : 0).delay(1.5))
     }
 }
 
