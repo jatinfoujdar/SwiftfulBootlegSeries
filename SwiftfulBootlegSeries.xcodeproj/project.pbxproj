@@ -33,6 +33,7 @@
 		59EBE8C42C82316600784DB2 /* initBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EBE8C32C82316600784DB2 /* initBootleg.swift */; };
 		59EBE8C62C824E4100784DB2 /* journalBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EBE8C52C824E4100784DB2 /* journalBootleg.swift */; };
 		59F74A1F2C7F3FDC00B1B32B /* TextBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */; };
+		59F8B8DA2CDD19C200CE6DD9 /* animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F8B8D92CDD19C200CE6DD9 /* animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		59EBE8C32C82316600784DB2 /* initBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initBootleg.swift; sourceTree = "<group>"; };
 		59EBE8C52C824E4100784DB2 /* journalBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalBootleg.swift; sourceTree = "<group>"; };
 		59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootleg.swift; sourceTree = "<group>"; };
+		59F8B8D92CDD19C200CE6DD9 /* animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				590522702CB54E71009A4B90 /* GridModifier.swift */,
+				59F8B8D92CDD19C200CE6DD9 /* animation.swift */,
 				59E175732CB9006400EF2287 /* Scrumdinger.swift */,
 				591A8C2A2CB585C8002CCFF2 /* SwiftApiCall.swift */,
 				59D9143F2C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift */,
@@ -214,6 +217,7 @@
 				599CF1552C85C4DB00733B1E /* ScrollViewBootleg .swift in Sources */,
 				590522732CB54ECD009A4B90 /* GredContainers.swift in Sources */,
 				597EF3E22CC6FCA600EB0D3D /* WordScramble.swift in Sources */,
+				59F8B8DA2CDD19C200CE6DD9 /* animation.swift in Sources */,
 				59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */,
 				59855BCF2CD6003F0017C462 /* RecordView.swift in Sources */,
 				59855BD32CD60CDA0017C462 /* ArmView.swift in Sources */,
