@@ -3,71 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		590522712CB54E88009A4B90 /* GridModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590522702CB54E71009A4B90 /* GridModifier.swift */; };
-		590522732CB54ECD009A4B90 /* GredContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590522722CB54ECD009A4B90 /* GredContainers.swift */; };
-		591580582C80F2D30014E14B /* StackBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591580572C80F2D30014E14B /* StackBootleg.swift */; };
-		591A8C2B2CB585C8002CCFF2 /* SwiftApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A8C2A2CB585C8002CCFF2 /* SwiftApiCall.swift */; };
-		594F94E42CDCC7BB007D362C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594F94E32CDCC7BB007D362C /* SwiftUIView.swift */; };
-		597EF3E22CC6FCA600EB0D3D /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597EF3E12CC6FCA600EB0D3D /* WordScramble.swift */; };
-		59855BC92CD5F2CC0017C462 /* RecordPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59855BC82CD5F2CC0017C462 /* RecordPlayer.swift */; };
-		59855BCB2CD5FBDF0017C462 /* RecordPlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59855BCA2CD5FBDF0017C462 /* RecordPlayerBox.swift */; };
-		59855BCD2CD5FDB70017C462 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 59855BCC2CD5FDB70017C462 /* music.m4a */; };
-		59855BCF2CD6003F0017C462 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59855BCE2CD6003F0017C462 /* RecordView.swift */; };
-		59855BD12CD60B650017C462 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59855BD02CD60B650017C462 /* ContentView.swift */; };
-		59855BD32CD60CDA0017C462 /* ArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59855BD22CD60CDA0017C462 /* ArmView.swift */; };
-		599CF1552C85C4DB00733B1E /* ScrollViewBootleg .swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */; };
-		599CF1572C85D9DD00733B1E /* LazySwiftBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */; };
-		599D9C032C850974001A3127 /* ForEachBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D9C022C850974001A3127 /* ForEachBootleg.swift */; };
-		59A600902CFF12630078A640 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A6008F2CFF12520078A640 /* RestaurantModel.swift */; };
-		59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */; };
-		59D42ABF2C82EF74008E17B3 /* MapBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D42ABE2C82EF74008E17B3 /* MapBootleg.swift */; };
-		59D500D52C837AB400EC758E /* ContentViewBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D500D42C837AB400EC758E /* ContentViewBootleg.swift */; };
-		59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D9143F2C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift */; };
 		59D914442C7CFE8500A8A03F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D914432C7CFE8500A8A03F /* Assets.xcassets */; };
 		59D914472C7CFE8500A8A03F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D914462C7CFE8500A8A03F /* Preview Assets.xcassets */; };
-		59E175742CB9006400EF2287 /* Scrumdinger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E175732CB9006400EF2287 /* Scrumdinger.swift */; };
-		59EB60EB2CC1956200BE24BD /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EB60EA2CC1956200BE24BD /* CountdownTimer.swift */; };
-		59EBE8C42C82316600784DB2 /* initBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EBE8C32C82316600784DB2 /* initBootleg.swift */; };
-		59EBE8C62C824E4100784DB2 /* journalBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EBE8C52C824E4100784DB2 /* journalBootleg.swift */; };
-		59F74A1F2C7F3FDC00B1B32B /* TextBootleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */; };
-		59F8B8DA2CDD19C200CE6DD9 /* animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F8B8D92CDD19C200CE6DD9 /* animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		590522702CB54E71009A4B90 /* GridModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridModifier.swift; sourceTree = "<group>"; };
-		590522722CB54ECD009A4B90 /* GredContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GredContainers.swift; sourceTree = "<group>"; };
-		591580572C80F2D30014E14B /* StackBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBootleg.swift; sourceTree = "<group>"; };
-		591A8C2A2CB585C8002CCFF2 /* SwiftApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftApiCall.swift; sourceTree = "<group>"; };
-		594F94E32CDCC7BB007D362C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		597EF3E12CC6FCA600EB0D3D /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
-		59855BC82CD5F2CC0017C462 /* RecordPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayer.swift; sourceTree = "<group>"; };
-		59855BCA2CD5FBDF0017C462 /* RecordPlayerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerBox.swift; sourceTree = "<group>"; };
-		59855BCC2CD5FDB70017C462 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
-		59855BCE2CD6003F0017C462 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
-		59855BD02CD60B650017C462 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		59855BD22CD60CDA0017C462 /* ArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmView.swift; sourceTree = "<group>"; };
-		599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewBootleg .swift"; sourceTree = "<group>"; };
-		599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazySwiftBootleg.swift; sourceTree = "<group>"; };
-		599D9C022C850974001A3127 /* ForEachBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootleg.swift; sourceTree = "<group>"; };
-		59A6008F2CFF12520078A640 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
-		59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIconBotleg.swift; sourceTree = "<group>"; };
-		59D42ABE2C82EF74008E17B3 /* MapBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBootleg.swift; sourceTree = "<group>"; };
-		59D500D42C837AB400EC758E /* ContentViewBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewBootleg.swift; sourceTree = "<group>"; };
 		59D9143C2C7CFE8300A8A03F /* SwiftfulBootlegSeries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulBootlegSeries.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		59D9143F2C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulBootlegSeriesApp.swift; sourceTree = "<group>"; };
 		59D914432C7CFE8500A8A03F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59D914462C7CFE8500A8A03F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		59E175732CB9006400EF2287 /* Scrumdinger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrumdinger.swift; sourceTree = "<group>"; };
-		59EB60EA2CC1956200BE24BD /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
-		59EBE8C32C82316600784DB2 /* initBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initBootleg.swift; sourceTree = "<group>"; };
-		59EBE8C52C824E4100784DB2 /* journalBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalBootleg.swift; sourceTree = "<group>"; };
-		59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootleg.swift; sourceTree = "<group>"; };
-		59F8B8D92CDD19C200CE6DD9 /* animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		595DBAAE2D5F9A940099D5BD /* Card-transitions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Card-transitions"; sourceTree = "<group>"; };
+		595DBAAF2D5F9ABA0099D5BD /* demo-files */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "demo-files"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		59D914392C7CFE8300A8A03F /* Frameworks */ = {
@@ -99,32 +52,8 @@
 		59D9143E2C7CFE8300A8A03F /* SwiftfulBootlegSeries */ = {
 			isa = PBXGroup;
 			children = (
-				59A6008F2CFF12520078A640 /* RestaurantModel.swift */,
-				590522702CB54E71009A4B90 /* GridModifier.swift */,
-				59F8B8D92CDD19C200CE6DD9 /* animation.swift */,
-				59E175732CB9006400EF2287 /* Scrumdinger.swift */,
-				591A8C2A2CB585C8002CCFF2 /* SwiftApiCall.swift */,
-				59D9143F2C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift */,
-				59D2C1182C7F98730085DA13 /* SwiftIconBotleg.swift */,
-				591580572C80F2D30014E14B /* StackBootleg.swift */,
-				590522722CB54ECD009A4B90 /* GredContainers.swift */,
-				59EBE8C32C82316600784DB2 /* initBootleg.swift */,
-				59D42ABE2C82EF74008E17B3 /* MapBootleg.swift */,
-				59D500D42C837AB400EC758E /* ContentViewBootleg.swift */,
-				59EBE8C52C824E4100784DB2 /* journalBootleg.swift */,
-				59F74A1E2C7F3FDC00B1B32B /* TextBootleg.swift */,
-				599D9C022C850974001A3127 /* ForEachBootleg.swift */,
-				599CF1542C85C4DB00733B1E /* ScrollViewBootleg .swift */,
-				599CF1562C85D9DD00733B1E /* LazySwiftBootleg.swift */,
-				59EB60EA2CC1956200BE24BD /* CountdownTimer.swift */,
-				597EF3E12CC6FCA600EB0D3D /* WordScramble.swift */,
-				59855BD02CD60B650017C462 /* ContentView.swift */,
-				59855BC82CD5F2CC0017C462 /* RecordPlayer.swift */,
-				59855BCC2CD5FDB70017C462 /* music.m4a */,
-				59855BCE2CD6003F0017C462 /* RecordView.swift */,
-				59855BD22CD60CDA0017C462 /* ArmView.swift */,
-				59855BCA2CD5FBDF0017C462 /* RecordPlayerBox.swift */,
-				594F94E32CDCC7BB007D362C /* SwiftUIView.swift */,
+				595DBAAF2D5F9ABA0099D5BD /* demo-files */,
+				595DBAAE2D5F9A940099D5BD /* Card-transitions */,
 				59D914432C7CFE8500A8A03F /* Assets.xcassets */,
 				59D914452C7CFE8500A8A03F /* Preview Content */,
 			);
@@ -153,6 +82,10 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				595DBAAE2D5F9A940099D5BD /* Card-transitions */,
+				595DBAAF2D5F9ABA0099D5BD /* demo-files */,
 			);
 			name = SwiftfulBootlegSeries;
 			productName = SwiftfulBootlegSeries;
@@ -199,7 +132,6 @@
 			files = (
 				59D914472C7CFE8500A8A03F /* Preview Assets.xcassets in Resources */,
 				59D914442C7CFE8500A8A03F /* Assets.xcassets in Resources */,
-				59855BCD2CD5FDB70017C462 /* music.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,31 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59EB60EB2CC1956200BE24BD /* CountdownTimer.swift in Sources */,
-				59EBE8C42C82316600784DB2 /* initBootleg.swift in Sources */,
-				59855BD12CD60B650017C462 /* ContentView.swift in Sources */,
-				59F74A1F2C7F3FDC00B1B32B /* TextBootleg.swift in Sources */,
-				59E175742CB9006400EF2287 /* Scrumdinger.swift in Sources */,
-				591580582C80F2D30014E14B /* StackBootleg.swift in Sources */,
-				594F94E42CDCC7BB007D362C /* SwiftUIView.swift in Sources */,
-				599CF1552C85C4DB00733B1E /* ScrollViewBootleg .swift in Sources */,
-				590522732CB54ECD009A4B90 /* GredContainers.swift in Sources */,
-				597EF3E22CC6FCA600EB0D3D /* WordScramble.swift in Sources */,
-				59F8B8DA2CDD19C200CE6DD9 /* animation.swift in Sources */,
-				59D914402C7CFE8300A8A03F /* SwiftfulBootlegSeriesApp.swift in Sources */,
-				59855BCF2CD6003F0017C462 /* RecordView.swift in Sources */,
-				59855BD32CD60CDA0017C462 /* ArmView.swift in Sources */,
-				59A600902CFF12630078A640 /* RestaurantModel.swift in Sources */,
-				599CF1572C85D9DD00733B1E /* LazySwiftBootleg.swift in Sources */,
-				591A8C2B2CB585C8002CCFF2 /* SwiftApiCall.swift in Sources */,
-				590522712CB54E88009A4B90 /* GridModifier.swift in Sources */,
-				59855BCB2CD5FBDF0017C462 /* RecordPlayerBox.swift in Sources */,
-				59D42ABF2C82EF74008E17B3 /* MapBootleg.swift in Sources */,
-				59EBE8C62C824E4100784DB2 /* journalBootleg.swift in Sources */,
-				59D2C1192C7F98730085DA13 /* SwiftIconBotleg.swift in Sources */,
-				59D500D52C837AB400EC758E /* ContentViewBootleg.swift in Sources */,
-				59855BC92CD5F2CC0017C462 /* RecordPlayer.swift in Sources */,
-				599D9C032C850974001A3127 /* ForEachBootleg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
