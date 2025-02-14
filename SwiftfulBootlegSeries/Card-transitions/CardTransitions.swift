@@ -20,7 +20,41 @@ struct CardTransitions: View {
           CardDetails(icon: "🎮", title: "Video Game Purchase", money: "$59.99", date: "2025-02-10", time: "20:02"),
           CardDetails(icon: "☕", title: "Coffee at Café C", money: "$4.75", date: "2025-02-13", time: "15:00")
       ]
-    var body: some View {
-        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Hello, world!@*/Text("Hello, world!")/*@END_MENU_TOKEN@*/
+
+        var color: Color
+        @Binding var isCurrent: Bool
+        
+        var body: some View {
+            VStack {
+                MasterCard()
+                VStack {
+                    ForEach(cards.indices, id: \.self) { card in
+                        HStack(spacing: 10) {
+                            Image(systemName: cards[card].icon)
+                                .font(.title3)
+                                .bold()
+                            VStack(alignment: .leading) {
+                                Text(cards[card].title)
+                                Text(cards[card].date)
+                                    .font(.footnote)
+                                    .foregroundStyle(.secondary)
+                            }
+                            Spacer()
+                            VStack(alignment: .trailing) {
+                                Text(cards[card].money)
+                                Text(cards[card].time)
+                                    .font(.footnote)
+                                    .foregroundStyle(.secondary)
+                            }
+                        }
+                        .padding(15)
+                    }
+                    .frame(width: 310)
+                }
+                .padding(10)
+                .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 15))
+            }
+        }
     }
-}
+
+

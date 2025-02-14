@@ -4,10 +4,19 @@ import SwiftUI
 
 struct MasterCard: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        RoundedRectangle(cornerRadius: 10)
+            .fill(Color.blue)
+            .frame(width: 300, height: 150)
+            .overlay(
+                Text("MasterCard")
+                    .foregroundColor(.white)
+                    .bold()
+                    .font(.title)
+            )
     }
 }
 
+
 #Preview {
-    SwiftUIView()
+    MasterCard()
 }
