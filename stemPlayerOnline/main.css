@@ -1,0 +1,309 @@
+:root {
+	--bg: #2c2f33; 
+	--player: #9c836a;
+	--player-border: #856849;
+	--slider: #997b5c;
+	--light-on: #c6c9d2;
+	--light-off: #8a7159;
+	/*
+	--light-1: #f5440a;
+	--light-2: #b24156;
+	--light-3: #743c9b;
+	--light-4: #4339e3;
+	*/
+	--light-1: #515151;
+	--light-2: #515151;
+	--light-3: #515151;
+	--light-4: #515151;
+	--maxVolColor: #303FDB;
+	--loopColor: orange;
+}
+
+
+html, body {
+	background-color: var(--bg);
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: 0;
+}
+* {
+	font-family: 'Roboto', sans-serif;
+	color: #E2E2E2;
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	user-select: none;
+}
+nav {
+	display: flex;
+	align-items: center;
+}
+nav * {
+	margin-left: 10px;
+	text-decoration: none;
+}
+#pageTitle {
+	font-size: 14pt;
+}
+#topBar {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px;
+}
+#folderSelectGroup {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 10px;
+}
+#folderSelectField {
+	display: none;
+}
+#folderSelectIcon {
+	height: 25px;
+	width: 35px;
+	padding: 3px;
+	margin-right: 5px;
+}
+#playerContainer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
+}
+#content {
+	height: calc(85vh - 50px);
+	display: flex;
+}
+#player {
+	height: 95vw;
+	width: 95vw;
+	max-height: 500px;
+	max-width: 500px;
+	margin-bottom: 15px;
+	border-radius: 50%;
+	background-color: var(--player);
+	border: 1px solid var(--player-border);
+	box-shadow: inset 5px 5px 15px 15px rgba(0,0,0,0.2);
+}
+
+.playerSection {
+	display: flex;
+	width: 100%;
+	height: 33.3%;
+	align-items: center;
+}
+
+#upperPlayer, #lowerPlayer {
+	justify-content: center;
+}
+#middlePlayer {
+	justify-content: space-between;
+}
+
+.slider, .light {
+	touch-action: none;
+}
+
+.slider {
+	display: flex;
+	background-color: var(--slider);
+	width: 34%;
+	height: 15vmin; /* 80px */
+	max-height: 80px;
+	border-radius: 40px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: inset 3px 3px 3px rgba(0,0,0,0.2), inset -3px -3px 3px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+
+
+#topSlider {
+	transform: rotate(-90deg);
+	margin-top: 6%;
+}
+#leftSlider {
+	transform: rotate(180deg);
+	margin-left: 5%;
+}
+#centerButton {
+	width: 12%;
+	height: 36%; /* 40px */
+	border-radius: 50%;
+	background-color: var(--player);
+	border: 1px solid var(--player-border);
+	box-shadow: inset 1px 1px 2px 2px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+#rightSlider {
+	margin-right: 5%;
+}
+#bottomSlider {
+	transform: rotate(90deg);
+	margin-bottom: 6%;
+}
+
+.light {
+	width: 16%;
+	max-width: 24px;
+	height: 34%;
+	max-height: 24px;
+	border: 2px solid var(--light-on);
+	border: none;
+	margin: 5px;
+	border-radius: 50%;
+}
+.light1 {
+	background-color: var(--light-1);
+}
+.light1.lightBright {
+	box-shadow: 0px 0px 3px 3px var(--light-1);
+}
+.light2 {
+	background-color: var(--light-2);
+}
+.light2.lightBright {
+	box-shadow: 0px 0px 3px 3px var(--light-2);
+}
+.light3 {
+	background-color: var(--light-3);
+}
+.light3.lightBright {
+	box-shadow: 0px 0px 3px 3px var(--light-3);
+}
+.light4 {
+	background-color: var(--light-4);
+}
+.light4.lightBright {
+	box-shadow: 0px 0px 3px 3px var(--light-4);
+}
+.loopLight {
+	background-color: var(--loopColor) !important;
+}
+.loopLight.lightBright {
+	box-shadow: 0px 0px 3px 3px var(--loopColor);
+}
+.lightOff {
+	background-color: var(--light-off);
+	box-shadow: none;
+}
+#playerButtons {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.playerButton {
+	height: 25px;
+	width: 50px;
+	background-color: var(--player);
+	margin: 0px 10px;
+	border-radius: 12.5px;
+	border: 1px solid var(--player-border);
+	cursor: pointer;
+}
+#volumeButtons, #selectButtons {
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+#plusIconVertical {
+	position: absolute;
+	height: 2px;
+	width: 10px;
+	margin: 11px 10px;
+	background-color: #68533c;
+	transform: rotate(90deg);
+}
+#plusIconHorizontal {
+	position: absolute;
+	height: 2px;
+	width: 10px;
+	margin: 11px 10px;
+	background-color: #68533c;
+}
+#minusIcon {
+	height: 2px;
+	width: 10px;
+	margin: 10.5px 10px;
+	background-color: #68533c;
+}
+#minusIcon, #rightDotIcon {
+	float: right;
+}
+.dotIcon {
+	height: 10px;
+	width: 10px;
+	margin: 7.5px;
+	background-color: #68533c;
+	border-radius: 50%;
+}
+.halfButton {
+	width: 50px;
+}
+.colorInput {
+	display: none;
+}
+#colorIcons {
+	display: flex;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+.colorIcon {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 8px;
+	border: 1px solid black;
+}
+#color4Icon {
+	background-color: var(--light-4);
+}
+#color1Icon {
+	background-color: var(--light-1);
+}
+#externalLinks {
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+	display: flex;
+}
+#externalLinks img {
+	margin-right: 10px;
+	width: 25px;
+	height: 25px;
+	padding: 5px;
+}
+@keyframes loadingAnimation {
+	0% { margin-left:-70%;}
+	100% { margin-left: 120%;}
+}
+#loading {
+	position: absolute;
+	width: 50%;
+	height: 2px;
+	background-color: white;
+	margin: 0;
+	margin-left: -70%;
+	animation-name: loadingAnimation;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	display: none;
+}
+#playlistViewer {
+	position: absolute;
+	display: none;
+	bottom: 10px;
+	right: 15px;
+	overflow: auto;
+	height: 120px;
+	width: 250px;
+	border-radius: 3px;
+}
+.playlistViewerItem {
+	padding: 6px;
+	background-color: #222;
+	border-bottom: 1px solid #333;
+	cursor: pointer;
+}
