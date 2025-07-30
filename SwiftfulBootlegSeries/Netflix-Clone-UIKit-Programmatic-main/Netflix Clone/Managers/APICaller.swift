@@ -11,7 +11,7 @@ struct Constants {
     static let API_KEY = "ed3c6db2f42a032f11b4672031130c12"
     static let baseURL = "https://api.themoviedb.org/"
     static let screenSize: CGRect = UIScreen.main.bounds
-    static let YoutubeAPI_KEY = "AIzaSyBnQHxnN4VbP3mqkUAEbGHVmiL8lQRQ45g"
+    static let YoutubeAPI_KEY = ""
     static let YoutubeBaseURL = "https://youtube.googleapis.com/youtube/v3/search?"
 //    let screenWidth = screenSize.width
 //    let screenHeight = screenSize.height
