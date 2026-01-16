@@ -20,6 +20,7 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		595DBAAE2D5F9A940099D5BD /* Card-transitions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Card-transitions"; sourceTree = "<group>"; };
 		595DBAAF2D5F9ABA0099D5BD /* demo-files */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "demo-files"; sourceTree = "<group>"; };
+		5971E6A82F1A37C1004E343F /* bg */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = bg; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		59D9143E2C7CFE8300A8A03F /* SwiftfulBootlegSeries */ = {
 			isa = PBXGroup;
 			children = (
+				5971E6A82F1A37C1004E343F /* bg */,
 				595DBAAF2D5F9ABA0099D5BD /* demo-files */,
 				595DBAAE2D5F9A940099D5BD /* Card-transitions */,
 				59D914432C7CFE8500A8A03F /* Assets.xcassets */,
@@ -86,6 +88,7 @@
 			fileSystemSynchronizedGroups = (
 				595DBAAE2D5F9A940099D5BD /* Card-transitions */,
 				595DBAAF2D5F9ABA0099D5BD /* demo-files */,
+				5971E6A82F1A37C1004E343F /* bg */,
 			);
 			name = SwiftfulBootlegSeries;
 			productName = SwiftfulBootlegSeries;
